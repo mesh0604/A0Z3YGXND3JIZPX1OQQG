@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Amalfi;
+    src: url('../libs/fonts/AmalfiCoast.ttf');
+}
+
+@font-face {
+    font-family: CrimsonBold;
+    src: url('../libs/fonts/CrimsonTextBold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../libs/fonts/Montserrat.ttf');
+}
+
+@font-face {
+    font-family: Digital;
+    src: url('../libs/fonts/digital.ttf');
+}
+
+.font-amalfi {
+    font-family: Amalfi;
+}
+
+.font-crimsonbold {
+    font-family: CrimsonBold;
+}
+
+.font-montserrat {
+    font-family: Montserrat;
+}
+
+.font-digital {
+    font-family: Digital;
+}

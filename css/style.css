@@ -1,0 +1,466 @@
+#navbar-center {
+    position: relative;
+}
+
+#navbar-center>ul {
+    position: absolute;
+    left: calc(50% - 201.5px);
+    font-weight: bold;
+}
+
+.navbar-default {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 0;
+}
+
+.brand-label {
+    color: #174E84;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.brand-label-and {
+    color: #6D829B;
+    font-size: 30px;
+    margin: 40px 0 20px 0;
+}
+
+.brand-details {
+    color: #6D829B;
+    font-size: 18px;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.brand-subdetails {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+
+.brand-hint {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.brand-container {
+    background-image: url(../libs/images/gray-bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 50px 0px 50px;
+    height: 950px;
+}
+
+#button-container {
+    float: right;
+}
+
+.image-splash {
+    object-fit: cover;
+}
+
+.image-splash-container,
+#gallery-container {
+    border: solid 3px #174E84;
+}
+
+.btn-accept {
+    padding: 15px;
+    background-color: #174e84;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    width: 200px;
+}
+
+.btn-decline {
+    padding: 15px;
+    background-color: #a93a3a;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    width: 200px;
+}
+
+.group-label {
+    font-size: 30px;
+    color: #174E84;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.location-label {
+    font-weight: bold;
+    font-size: 15px;
+    color: #174E84;
+    margin-top: 15px;
+}
+
+#gallery-container {
+    margin-top: 30px;
+}
+
+.location-container {
+    background-image: url(../libs/images/gray-bg-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+}
+
+.guides-container {
+    background-image: url(../libs/images/gray-bg-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+}
+
+.attire-guide-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #174E84;
+}
+
+.color-guide {
+    height: 50px;
+    background-color: #182434;
+}
+
+.color-light {
+    background-color: #6D829B;
+}
+
+.color-lighter {
+    background-color: #8D98AA;
+}
+
+.color-lightest {
+    background-color: #DCD9D8;
+}
+
+#img-gift {
+    max-height: 300px;
+    margin-top: 40px;
+}
+
+.footer-container {
+    background: #5a5a5a;
+    padding: 50px;
+}
+
+#blkNameGroom {
+    margin-top: 30px;
+}
+
+#blkNameBride {
+    margin-top: 60px;
+}
+
+#blkInvitationDetails {
+    text-align: right;
+    font-size: 16px;
+    margin: 60px 0 30px 0;
+}
+
+#highlight-container {
+    margin-top: 50px;
+}
+
+.white-container {
+    background-image: url(../libs/images/tile-bg.png);
+}
+
+#story-container {
+    padding: 50px 0;
+}
+
+#story-title {
+    margin-top: 190px;
+}
+
+.container-details {
+    font-size: 15px;
+}
+
+.location-frame {
+    border: solid 3px #174E84;
+    width: 100%;
+}
+
+#gallerycarousel-container>div {
+    padding: 60px 0;
+}
+
+.carousel-image {
+    width: 100%;
+}
+
+#attire-container {
+    margin-top: 40px;
+}
+
+#blkGiftGuide {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#blkJoinUs {
+    color: white;
+    font-size: 25px;
+}
+
+#blkEventDateTime {
+    color: white;
+    font-size: 25px;
+    margin-top: -10px;
+}
+
+#txtCountdown {
+    font-size: 100px;
+    color: white;
+    margin-top: -20px
+}
+
+#blkCaptureTheLove {
+    color: white;
+    font-size: 25px;
+}
+
+#blkOffcialHashtag {
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#blkHashtag {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#imgCompanyLogo {
+    height: 40px;
+    margin-top: 50px;
+}
+
+#blkCopyright {
+    margin-top: 10px;
+    color: white;
+    font-size: 10px;
+}
+
+#loadingScreen {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+#loadingParse {
+    display: none;
+    background-color: rgba(255, 255, 255, .5);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 1051;
+}
+
+#imgLoader {
+    margin-top: -65px;
+}
+
+#loadingScreen > div {
+    margin-top: calc(50vh - 80px);
+}
+
+#loadingParse > div {
+    margin-top: calc(50vh - 65px);
+}
+
+#centerBrand {
+    margin-top: 50px;
+}
+
+#modalAccept {
+    padding: 0 !important;
+}
+
+#modalAccept > div {
+    height: 100vh;
+}
+
+.modal-title {
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+
+.modal-header {
+    padding: 25px;
+    background: #174E84;
+}
+
+.modal-content {
+    border-radius: 0 !important;
+}
+
+.label-agreement {
+    font-size: 11px;
+}
+
+#txtDeclineReason {
+    resize: none;
+}
+
+@media (max-width: 767px) {
+    #centerBrand {
+        margin-top: 30px;
+        padding-bottom: 5px;
+    }
+    
+    .brand-label {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #blkNameAnd {
+        font-size: 15px;
+        margin: 20px 0 10px 0;
+    }
+
+    #blkNameBride {
+        margin-top: 30px;
+    }
+
+    .brand-details {
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    #blkInvitationDetails {
+        font-size: 14px;
+        margin-top: 35px;
+        text-align: center;
+    }
+
+    .navbar-default {
+        display: none;
+    }
+
+    .btn-accept {
+        width: 100%;
+    }
+
+    .btn-decline {
+        width: 100%;
+        padding: 5px;
+        margin: 5px 0 0 0;
+    }
+
+    #blkRespondDueDate {
+        margin-bottom: 40px;
+    }
+
+    .brand-container {
+        height: auto;
+    }
+
+    #highlight-container {
+        display: none;
+    }
+
+    #story-title {
+        margin-top: 10px !important;
+    }
+
+    #story-container, .location-container, .guides-container, .footer-container {
+        padding: 40px 20px;
+    }
+
+    .location-label {
+        text-align: center;
+    }
+
+    #reception-location, #attire-sponsors, #gift-guide {
+        margin-top: 30px;
+    }
+
+    #gallerycarousel-container > div {
+        padding: 40px;
+    }
+
+    #img-gift {
+        max-height: 200px;
+        margin-top: 10px;
+    }
+
+    .container-details {
+        font-size: 14px;
+    }
+
+    #blkJoinUs, #blkEventDateTime {
+        font-size: 20px;
+    }
+    
+    #txtCountdown {
+        font-size: 50px;
+    }
+
+    #blkCaptureTheLove {
+        font-size: 18px;
+    }
+
+    #blkOffcialHashtag {
+        font-size: 12px;
+    }
+
+    #blkHashtag {
+        font-size: 14px;
+    }
+
+    #imgCompanyLogo {
+        height: 30px;
+        margin-top: 20px;
+    }
+
+    #blkCopyright {
+        font-size: 8px;
+    }
+
+    .carousel-caption {
+        display: none;
+    }
+
+    #button-container {
+        float: none;
+    }
+
+    .btn-decline {
+        font-size: 15px;
+    }
+
+    .brand-details {
+        font-size: 12px;
+    }
+
+    .brand-label {
+        font-size: 25px;
+    }
+
+    .brand-subdetails {
+        font-size: 12px;
+    }
+
+    .group-label {
+        font-size: 20px;
+    }
+}
